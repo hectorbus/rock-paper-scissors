@@ -15,7 +15,7 @@ body {
   color: #955BA5;
   text-shadow: 6px 4px 7px rgba(150, 150, 150, 1);
 }
-.choose {
+#choose {
   text-align: center;
   font-family: komika;
   font-size: 48px;
@@ -55,19 +55,8 @@ body {
   text-shadow: 6px 4px 7px rgba(0, 0, 0, .5);
   position: absolute;
   left: 35%;
-  top: 352px;
+  top: 233px;
   z-index:10;
-    /* Safari */
-  -webkit-transform: rotate(-10deg);
-
-  /* Firefox */
-  -moz-transform: rotate(-10deg);
-
-  /* IE */
-  -ms-transform: rotate(-10deg);
-
-  /* Opera */
-  -o-transform: rotate(-10deg);
 }
 #ganaste {
   text-align: center;
@@ -77,19 +66,8 @@ body {
   text-shadow: 6px 4px 7px rgba(0, 0, 0, .5);
   position: absolute;
   left: 35%;
-  top: 352px;
+  top: 233px;
   z-index:10;
-    /* Safari */
-  -webkit-transform: rotate(2deg);
-
-  /* Firefox */
-  -moz-transform: rotate(2deg);
-
-  /* IE */
-  -ms-transform: rotate(2deg);
-
-  /* Opera */
-  -o-transform: rotate(2deg);
 }
 #rock {
   background-image:url("../img/piedra.png");
@@ -99,4 +77,24 @@ body {
 }
 #scissors{
   background-image:url("../img/tijeras.png");
+}
+#btn {
+  -webkit-border-radius: 6;
+  -moz-border-radius: 6;
+  border-radius: 6px;
+  font-family: komika;
+  color: #ffffff;
+  font-size: 20px;
+  background: #FCBE1F;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  width:18%;
+  text-align:center;
+  margin:0 auto;
+  margin-top:330px;
+}
+
+#btn:hover {
+  background: #E0A91C;
+  text-decoration: none;
 }
