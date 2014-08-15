@@ -1,0 +1,102 @@
+@font-face { font-family: komika; src: url('../fonts/komika_axis/KOMIKAX_.ttf'); }
+
+body {
+  background: #4EBA6F;
+}
+.wrap {
+  padding: 10px 0 ;
+  margin: 0 auto;
+  width: 1000px;
+}
+.gametitle {
+  text-align: center;
+  font-family: komika;
+  font-size: 75px;
+  color: #955BA5;
+  text-shadow: 6px 4px 7px rgba(150, 150, 150, 1);
+}
+.choose {
+  text-align: center;
+  font-family: komika;
+  font-size: 48px;
+  color: #F0C419;
+  text-shadow: 6px 4px 7px rgba(0, 0, 0, .5);
+  margin-top: 31px;
+
+}
+.images {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+  width:30%;
+  height:340px;
+  margin:10px 15px;
+  display:inline-block;
+  -webkit-transition:.2s;
+    -moz-transition:.2s;
+}
+.images:hover {
+  -webkit-transform:scale(1.1);
+    -moz-transform:scale(1.1);
+}
+.left {
+  position: absolute;
+  left: 13%;
+}
+.right {
+  position: absolute;
+  right: 13%;
+}
+#perdiste {
+  text-align: center;
+  font-family: komika;
+  font-size: 75px;
+  color: #C22426;
+  text-shadow: 6px 4px 7px rgba(0, 0, 0, .5);
+  position: absolute;
+  left: 35%;
+  top: 352px;
+  z-index:10;
+    /* Safari */
+  -webkit-transform: rotate(-10deg);
+
+  /* Firefox */
+  -moz-transform: rotate(-10deg);
+
+  /* IE */
+  -ms-transform: rotate(-10deg);
+
+  /* Opera */
+  -o-transform: rotate(-10deg);
+}
+#ganaste {
+  text-align: center;
+  font-family: komika;
+  font-size: 75px;
+  color: #1ECA6B;
+  text-shadow: 6px 4px 7px rgba(0, 0, 0, .5);
+  position: absolute;
+  left: 35%;
+  top: 352px;
+  z-index:10;
+    /* Safari */
+  -webkit-transform: rotate(2deg);
+
+  /* Firefox */
+  -moz-transform: rotate(2deg);
+
+  /* IE */
+  -ms-transform: rotate(2deg);
+
+  /* Opera */
+  -o-transform: rotate(2deg);
+}
+#rock {
+  background-image:url("../img/piedra.png");
+}
+#paper {
+  background-image:url("../img/papel.png");
+}
+#scissors{
+  background-image:url("../img/tijeras.png");
+}
