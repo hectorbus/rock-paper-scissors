@@ -1,6 +1,6 @@
 Rock-Paper-Scissors
 ===================
 
-Rock Paper Scissors Game, Check it out! 
+Check it out! 
 
-http://piedra-papel-tijera.herokuapp.com/
+http://www.hectorbus.com/piedra-papel-tijera
