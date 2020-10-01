@@ -1,6 +1,6 @@
 Rock-Paper-Scissors
 ===================
 
-Check it out!!!
+Check out this classic yet fun game on this link given below!!!
 
 http://www.hectorbus.com/rock-paper-scissors
